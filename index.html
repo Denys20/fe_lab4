@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="uk"> 
+    <head>
+        <title>Хропост Д.С., ІК-02, лаб 1, варіант 19 </title>
+        <meta charset="UTF-8" />
+        <meta name="keywords" content="Мова розмітки HTML-5" />
+        <meta name="description" content="HTML, Git, розмітка" />
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <h2>Хропост Денис Сергійович</h2>
+        <p>Місце народженння: 02 жовтня 2002 року, Чернігівська область, Прилуцький район, смт. Дігтярі</p>
+        <p>Освіта: Дігтярівська ЗОШ; Національний технячний університет України "Київський політехнічний інститут імені Ігоря Сікольського"</p>
+        
+        <p>Хоббі:</p>
+        <ul>
+            <li>Плавання</li>
+            <li>Риболовля</li>
+            <li>Вишивання</li>
+        </ul>
+
+        <p>Улюблені фільми:</p>
+
+        <ol>
+            <li>"Аватар", 2009</li>
+            <li id="element" onclick="changeColorElement1()">"Найкра́щий стріле́ць", 1986</li>
+            <li id="next_element" onclick="changeColorElement2()">"Гаррі Поттер"</li>
+        </ol>
+
+        <p>
+            Київ – столиця України та одне з найстаріших міст Європи, засноване щонайменше 1500 років тому. Сучасне європейське місто здатне 
+            здивувати будь-кого – від любителів природної краси, архітектури та визначних пам'яток до тих, хто віддає перевагу більш насиченому 
+            та активному відпочинку.
+        </p>
+
+        <a href="https://kyivcity.gov.ua/" target="_blank"><img src="Kyiv.png" alt="Київ" /></a>
+        
+        <div id="kyiv"></div>
+
+        <div class="image_change">
+            <button id="add" onclick="addImage()">Додати</button>
+            <button id="increase" onclick="increaseImage()">Збільшити</button>
+            <button id="reduce" onclick="reduceImage()">Зменшити</button>
+            <button id="remove" onclick="deleteImage()">Видалити</button>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
+
